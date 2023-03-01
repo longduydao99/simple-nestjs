@@ -10,8 +10,4 @@ const services = [AuthService];
   providers: [...services],
   exports: [],
 })
-export class AuthModule {
-  constructor() {
-    console.debug('Auth module init');
-  }
-}
+export class AuthModule {}

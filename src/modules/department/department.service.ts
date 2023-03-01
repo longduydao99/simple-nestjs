@@ -3,8 +3,7 @@ import { EmployeeService } from '../employee/employee.service';
 
 @Injectable()
 export class DepartmentService {
-  constructor(private readonly _employeeService: EmployeeService) {
-  }
+  constructor(private readonly _employeeService: EmployeeService) {}
 
   public async get(id: string): Promise<Record<string, unknown>> {
     try {
